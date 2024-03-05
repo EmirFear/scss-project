@@ -145,20 +145,23 @@ footer.middle .social-icons i {
 }
 
 .contact {
-  padding-top: 5%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .contact h2 {
   padding-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .contact__list {
   display: flex;
   justify-content: center;
-}
-.contact__item {
-  padding: 0 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  gap: 2rem;
 }
 .contact__item .text-secondary {
   color: #ff652f;
